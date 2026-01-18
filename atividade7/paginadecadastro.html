@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <header>
+        <img src="logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="interface.html">Home|</a></li>
+                <li><a href="Quem somos.html">Quem somos|</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="#" method="post">
+        <fieldset>
+            <legend >Cadastro de usuario</legend>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" size="30" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="digite seu email"><br><p>
+
+            <label for="nome">Usuario:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome usuario" size="30" required>
+          <label for="senha">Senha:</label>
+          <input type="password" name="email" placeholder="Digite sua senha" required><br><p>
+           
+        <label> Sexo:</label required>
+            Masculino<input type="radio" name="citizenship" />
+            Feminino<input type="radio" name="citizenship" />
+        </p>
+        
+          <label>Interesses:</label required>
+        <div>
+            <input type="checkbox" id="F" name="fut" checked/>
+            <label for="fut">Futebol</label>
+        
+            <input type="checkbox" id="L" name="livro" />
+            <label for="livro">Livros</label>
+
+            <input type="checkbox" id="f" name="filme"/>
+            <label for="filme">Filmes</label>
+
+            <input type="checkbox" id="T" name="teatro"/>
+            <label for="teatro">Teatro</label>
+
+          </div>
+          <label for="estado">Estado:</label><br>
+        <select name="estado" id="estado"required>
+            <option value="">Escolha uma opção</option>
+            <option value="PA">Pará</option>
+            <option value="MA">Maranhão</option>
+            <option value="AM">Amazonas</option>
+        </select><br><p>
+            <label for="observacao">Observações</label><br>
+            <textarea name="observacao" id="observacao" cols="30"
+            rows="10" required></textarea><br><p></p>
+            <input id="entrar" type="submit" value="cadastrar">
+            <p></p>
+            </fieldset>
+
+    </form>
+
+    <footer>
+        <p>Todos os direitos reservados &copf; </p>
+    </footer>
+</body>
+</html>

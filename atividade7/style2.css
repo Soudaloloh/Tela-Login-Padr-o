@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    float: right;
+    padding: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    margin-top: 30px;
+}
+#imgp{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    padding: 15px;
+}
+
+footer p{
+    font-weight: bold;
+    text-align: center
+}
+a{
+    color: blue;
+}
+
+a:hover{
+    color: chocolate;
+}
+form{
+    padding: 15px;
+}
+
+#entrar{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#entrar:hover{
+    background-color:rgba(0, 255, 13, 0.527) ;
+}
+form fieldset {
+    align-items: center;
+}
